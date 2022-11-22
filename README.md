@@ -1,2 +1,2 @@
 # refactoring-workbook
-- My solutions to Refactoring Workbook examples
+My solutions to Refactoring Workbook examples
