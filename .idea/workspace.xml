@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="947778fe-95c1-4b96-9fda-3d915b52d8ec" name="Changes" comment="create unit tests and an example from refactoring workbook">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vinicius_grandi/chapter2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vinicius_grandi/chapter2/PersonTest.java" afterDir="false" />
+    <list default="true" id="947778fe-95c1-4b96-9fda-3d915b52d8ec" name="Changes" comment="refactor comments with _extract method_">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vinicius_grandi/chapter3/Matcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vinicius_grandi/chapter3/MatcherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,19 +52,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.vinicius_grandi.chapter3" />
       <recent name="com.vinicius_grandi.chapter2" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.name">
-    <configuration name="All in refactoring-workbook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="refactoring-workbook" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MatcherTest.match">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="refactoring-workbook" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,6 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatcherTest.match" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="refactoring-workbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vinicius_grandi.chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vinicius_grandi.chapter3" />
+      <option name="MAIN_CLASS_NAME" value="com.vinicius_grandi.chapter3.MatcherTest" />
+      <option name="METHOD_NAME" value="match" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="refactoring-workbook" />
       <extension name="coverage">
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MatcherTest.match" />
         <item itemvalue="JUnit.PersonTest.name" />
         <item itemvalue="JUnit.CalculatorTest.add" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.multiply" />
-        <item itemvalue="JUnit.All in refactoring-workbook" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669126404942</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create unit tests and an example from refactoring workbook">
+      <created>1669126563078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669126563078</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +169,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create unit tests and an example from refactoring workbook" />
-    <option name="LAST_COMMIT_MESSAGE" value="create unit tests and an example from refactoring workbook" />
+    <MESSAGE value="refactor comments with _extract method_" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor comments with _extract method_" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
