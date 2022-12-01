@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="947778fe-95c1-4b96-9fda-3d915b52d8ec" name="Changes" comment="refactor comments with _extract method_">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vinicius_grandi/chapter3/Machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vinicius_grandi/chapter3/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vinicius_grandi/chapter3/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vinicius_grandi/chapter3/ReportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vinicius_grandi/chapter3/RobotTest.java" afterDir="false" />
+    <list default="true" id="947778fe-95c1-4b96-9fda-3d915b52d8ec" name="Changes" comment="refactor report class - long class -&gt; extract method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vinicius_grandi/chapter3/JTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -175,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669210979477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor report class - long class -&gt; extract method">
+      <created>1669392386627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669392386627</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +196,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create unit tests and an example from refactoring workbook" />
     <MESSAGE value="refactor comments with _extract method_" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor comments with _extract method_" />
+    <MESSAGE value="refactor report class - long class -&gt; extract method" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor report class - long class -&gt; extract method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
